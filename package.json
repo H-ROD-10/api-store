@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api constrída con Node, Express, Mongoose y MongoDB",
+  "main": "index.js",
+  "author": "Hector J Rodriguez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "export NODE_ENV=DEVELOPMENT& nodemon ./server.js",
+    "prod": "export NODE_ENV=PRODUCTION& nodemon ./server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.26.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "nodemon": "^2.0.12"
+  }
+}
